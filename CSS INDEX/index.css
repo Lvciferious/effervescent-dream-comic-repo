@@ -1,8 +1,50 @@
 
+.body {
+    position: static;
+    max-width: 1920px;
+    min-width: 1080px;
+    background-color: black;
+}
 
+
+.header {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(216, 0, 7);
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.navbar {
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+    font-size: xx-large;
+    font-weight: bold;
+}
 
 .wrap {
     display:flex;
     justify-content:center;
     width:100%
 }
+
+.text {
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+
+.link { color: black }
+
+.link2 { color: rgb(216, 0, 7); }
+
+.link3 { color: skyblue; }
+
+.link4 { color: rgb(216, 0, 7); }
+
+.link5 { color: white; }
+
+.link:hover { color: white; }
+
+.link2:hover { color: white; }
+
+.link3:hover { color: white; }
