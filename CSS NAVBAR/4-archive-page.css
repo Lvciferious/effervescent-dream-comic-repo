@@ -2,7 +2,7 @@
 
 
 .body {
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     max-width: 1920px;
     min-width: 1080px;
     background-image: linear-gradient(black, rgb(31, 31, 31));
@@ -83,8 +83,23 @@
 /*image containers (use 25% for four, and 50% for two, etc.) */
 .column {
   float: left;
-  width: 12.5%;
+  width: 20%;
   padding: 50px;
+}
+
+.pic{
+    width: 400px;
+    margin: auto auto;
+}
+.pic img{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    transition: all 1s;
+}
+.pic:hover img{
+    transform: scale(1.2);
+    border-radius: 10px;
 }
 
 .link { color: black }

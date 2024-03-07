@@ -2,7 +2,6 @@
 
 
 .body {
-    background-attachment: fixed;
     max-width: 1920px;
     min-width: 1080px;
     background-image: linear-gradient(black, rgb(31, 31, 31));
