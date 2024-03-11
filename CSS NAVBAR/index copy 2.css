@@ -1,11 +1,19 @@
 
 
+@media screen {
+    body {
+      width: 75%;
+    }
+  }
+  
+  @media print {
+    body {
+      width: 100%;
+    }
+  }
 
-
-.body {
-    /*background-attachment: fixed;*/
+  .body {
     max-width: 1920px;
-    min-width: 1080px;
     background-image: linear-gradient(black, rgb(31, 31, 31));
 }
 
@@ -43,14 +51,6 @@
     width:100%
 }
 
-.title {
-    color: rgb(216, 0, 7);
-    font-family:'Courier New', Courier, monospace;
-    font-size: xx-large;
-    font-weight: bold;
-
-}
-
 .text {
     color: rgb(216, 0, 7);
     font-family:'Courier New', Courier, monospace;
@@ -74,34 +74,7 @@
     font-weight: bold;
 }
 
-.row {
-    width: 2000px;
-    content: "";
-    clear: both;
-    display: table;
-  }
 
-/*image containers (use 25% for four, and 50% for two, etc.) */
-.column {
-  float: left;
-  width: 20%;
-  padding: 20px;
-}
-
-.pic{
-    width: 400px;
-    margin: auto auto;
-}
-.pic img{
-    width: 100%;
-    height: auto;
-    align-items: center;
-    transition: all 1s;
-}
-.pic:hover img{
-    transform: scale(1.2);
-    border-radius: 10px;
-}
 
 .link { color: black }
 

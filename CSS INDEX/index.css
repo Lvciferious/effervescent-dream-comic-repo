@@ -1,6 +1,7 @@
 
 
-.body {
+p, .body {
+    margin: 0;
     max-width: 100%;
     min-width: 100%;
     background-image: linear-gradient(black, rgb(31, 31, 31));
