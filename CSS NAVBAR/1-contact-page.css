@@ -1,14 +1,4 @@
-@media screen (max-width: 600px) {
-    body {
-      width: 75%;
-    }
-  }
-  
-  @media print {
-    body {
-      width: 100%;
-    }
-  }
+
   
   .body {
     max-width: 1920px;
