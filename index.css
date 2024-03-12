@@ -1,12 +1,23 @@
 
 
- .body {
+/*.body {
     max-width: 100%;
     min-width: 100%;
     background-image: linear-gradient(black, rgb(31, 31, 31));
 }
+*/
+
+.site-background {
+    background-image: url("edream-comic-site-background-1-ver-2.png");
+    flex: content;
+    min-height: fit-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
 
 .header {
+    margin: 0;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(216, 0, 7);
