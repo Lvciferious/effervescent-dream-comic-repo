@@ -1,6 +1,7 @@
 
   
 .site-background {
+    text-shadow: 0 0 20px;
     background-image: url("edream-comic-site-background-1-ver-2.png");
     flex: content;
     min-height: fit-content;
@@ -19,15 +20,6 @@
     padding-bottom: 25px;
 }
 
-.footer {
-    background-color: black;
-    text-align: center;
-    color: rgb(47, 47, 47);
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
-    padding: 50px;
-}
-
 .navbar {
     text-align: center;
     font-family:'Courier New', Courier, monospace;
@@ -44,19 +36,29 @@
 }
 
 .title {
+    text-shadow: 0 0 20px;
     color: rgb(216, 0, 7);
     font-family:'Courier New', Courier, monospace;
     font-size: xx-large;
     font-weight: bold;
-
 }
 
 .text {
-    color: rgb(216, 0, 7);
+    text-shadow: 0 0 20px;
+    color: rgb(216, 0, 7);  
     font-family:'Courier New', Courier, monospace;
     font-size: x-large;
-
 }
+
+.footer {
+    background-color: black;
+    text-align: center;
+    color: rgb(47, 47, 47);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    padding: 50px;
+}
+
 
 
 

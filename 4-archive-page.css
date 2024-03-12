@@ -1,6 +1,7 @@
 
 
 .site-background {
+    text-shadow: 0 0 20px;
     background-image: url("edream-comic-site-background-1-ver-2.png");
     flex: content;
     min-height: fit-content;
@@ -44,19 +45,20 @@
 }
 
 .title {
+    text-shadow: 0 0 20px;
     color: rgb(216, 0, 7);
     font-family:'Courier New', Courier, monospace;
     font-size: xx-large;
     font-weight: bold;
-
 }
 
 .text {
-    color: rgb(216, 0, 7);
+    text-shadow: 0 0 20px;
+    color: rgb(216, 0, 7);  
     font-family:'Courier New', Courier, monospace;
     font-size: x-large;
-
 }
+
 
 .arrow-left {
     padding-top: 600px;
