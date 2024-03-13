@@ -6,6 +6,7 @@
     background-image: url("edream-comic-site-background-1-ver-2.png");
     flex: content;
     min-height: fit-content;
+    min-width: fit-content;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
