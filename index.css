@@ -2,6 +2,7 @@
 
 .site-background {
     margin: 0;
+    font-size:3vw;
     text-shadow: 0 0 20px;
     background-image: url("edream-comic-site-background-1-ver-2.png");
     flex: content;
@@ -13,11 +14,9 @@
 }
 
 .header {
-    max-width: 100%;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(216, 0, 7);
-    font-size: large;
     font-weight: bold;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -37,7 +36,6 @@
     text-align: center;
     font-family:'Courier New', Courier, monospace;
     color:rgb(47, 47, 47);
-    font-size: large;
     font-weight: bold;
     padding-bottom: 80px;
 }
@@ -49,6 +47,7 @@
 }
 
 .text {
+    font-size:1vw;
     text-shadow: 0 0 20px;
     color: rgb(216, 0, 7);  
     font-family:'Courier New', Courier, monospace;
