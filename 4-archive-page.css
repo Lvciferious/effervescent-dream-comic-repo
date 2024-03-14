@@ -1,10 +1,13 @@
 
 
 .site-background {
+    margin: 0;
+    font-size:3vw;
     text-shadow: 0 0 20px;
     background-image: url("edream-comic-site-background-1-ver-2.png");
     flex: content;
     min-height: fit-content;
+    min-width: fit-content;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -14,7 +17,6 @@
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(216, 0, 7);
-    font-size: xx-large;
     font-weight: bold;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -26,22 +28,23 @@
     color: rgb(47, 47, 47);
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
-    padding: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .navbar {
     text-align: center;
     font-family:'Courier New', Courier, monospace;
     color:rgb(47, 47, 47);
-    font-size: x-large;
     font-weight: bold;
     padding-bottom: 80px;
 }
 
+
 .wrap {
     display:flex;
     justify-content:center;
-    width:100%
+    min-width: fit-content;
 }
 
 .title {
@@ -76,21 +79,40 @@
     font-weight: bold;
 }
 
-.row {
-    width: 1000px;
-    content: "";
-    clear: both;
-    display: table;
+.row {      
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
   }
 
-/*image containers (use 25% for four, and 50% for two, etc.) */
-.column {
-  float: left;
-  width: 20%;
-  padding: 50px;
-}
-
 .pic{
+    padding: 10px;
     width: 400px;
     margin: auto auto;
 }
@@ -101,7 +123,7 @@
     transition: all 1s;
 }
 .pic:hover img{
-    transform: scale(1.2);
+    transform: scale(1.1);
     border-radius: 10px;
 }
 
