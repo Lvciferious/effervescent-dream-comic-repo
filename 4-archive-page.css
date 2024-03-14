@@ -86,7 +86,7 @@
   }
   
   .column {
-    flex: 25%;
+    flex: 50%;
     max-width: 25%;
     padding: 0 25px;
   }
