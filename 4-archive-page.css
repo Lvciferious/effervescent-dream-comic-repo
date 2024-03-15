@@ -40,13 +40,13 @@
     padding-bottom: 80px;
 }
 
-
+/*
 .wrap {
     display:flex;
     justify-content:center;
     min-width: fit-content;
 }
-
+*/
 .title {
     text-shadow: 0 0 20px;
     color: rgb(216, 0, 7);
@@ -79,6 +79,7 @@
     font-weight: bold;
 }
 
+/*
 .row {      
     display: flex;
     flex-wrap: wrap;
@@ -109,7 +110,7 @@
       max-width: 100%;
     }
   }
-
+*/
 .pic{
     padding: 10px;
     max-width: 75%;
@@ -125,6 +126,8 @@
     transform: scale(1.1);
     border-radius: 10px;
 }
+*/
+
 
 .link { color: black }
 
