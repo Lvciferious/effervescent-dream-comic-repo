@@ -1,17 +1,8 @@
-
-
-.site-background {
-    margin: 0;
-    font-size:3vw;
-    text-shadow: 0 0 20px;
-    background-image: url("edream-comic-site-background-1-ver-2.png");
-    flex: content;
-    min-height: fit-content;
-    min-width: fit-content;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+.pic{
+    max-width: 75%;
+    padding-left: 200px;
 }
+
 
 .text {
     text-shadow: 0 0 20px;
