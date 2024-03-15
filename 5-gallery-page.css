@@ -3,10 +3,13 @@
 
 
 .site-background {
+    margin: 0;
+    font-size:3vw;
     text-shadow: 0 0 20px;
     background-image: url("edream-comic-site-background-1-ver-2.png");
     flex: content;
     min-height: fit-content;
+    min-width: fit-content;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -16,7 +19,6 @@
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(216, 0, 7);
-    font-size: xx-large;
     font-weight: bold;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -28,22 +30,16 @@
     color: rgb(47, 47, 47);
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
-    padding: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .navbar {
     text-align: center;
     font-family:'Courier New', Courier, monospace;
     color:rgb(47, 47, 47);
-    font-size: x-large;
     font-weight: bold;
     padding-bottom: 80px;
-}
-
-.wrap {
-    display:flex;
-    justify-content:center;
-    width:100%
 }
 
 .title {
@@ -61,40 +57,9 @@
     font-size: x-large;
 }
 
-
-.arrow-left {
-    padding-top: 600px;
-    padding-right: 50px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: xx-large;
-    font-weight: bold;
-}
-
-.arrow-right {
-    padding-top: 600px;
-    padding-left: 50px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: xx-large;
-    font-weight: bold;
-}
-
-.row {
-    width: 2000px;
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-/*image containers (use 25% for four, and 50% for two, etc.) */
-.column {
-  float: left;
-  width: 20%;
-  padding: 20px;
-}
-
 .pic{
-    width: 400px;
-    margin: auto auto;
+    max-width: 75%;
+    margin: auto;
 }
 .pic img{
     width: 100%;
@@ -106,6 +71,8 @@
     transform: scale(1.2);
     border-radius: 10px;
 }
+
+
 
 .link { color: black }
 
